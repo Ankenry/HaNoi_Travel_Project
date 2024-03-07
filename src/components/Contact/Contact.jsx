@@ -7,7 +7,7 @@ import {BiVideo} from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <section className="c-wrapper">
+    <section id="contactus" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* Left side */}
         <div className="flexColStart c-left">

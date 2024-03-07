@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Sofitel Legend Metropole Hotel",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "15 P. Ngô Quyền, Street, Hoàn Kiếm, Hà Nội",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Capella Hanoi",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "11 P. Lê Phụng Hiểu, French Quarter, Hoàn Kiếm, Hà Nội",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Lotte Hanoi Hotel",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "54 P. Liễu Giai, Cống Vị, Ba Đình, Hà Nội",
     "image": "./r3.png"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Movenpick Hanoi",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "detail": "83A P. Lý Thường Kiệt, Cửa Nam, ward, Hà Nội",
     "image": "./r1.png"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "Peridot Grand Luxury Boutique Hotel",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "detail": "33 Duong Thanh Street, Old Quarter Hanoi City Hanoi City, 33 P. Đường Thành, Cửa Đông, Hoàn Kiếm, Hà Nội",
     "image": "./r2.png"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "GRAND HOTEL du LAC Hano",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "detail": "18-20 P. Nhà Chung, Hàng Trống, Hoàn Kiếm, Hà Nội",
     "image": "./r3.png"
   }
 ]

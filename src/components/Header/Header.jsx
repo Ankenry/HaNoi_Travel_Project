@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandle from "react-outside-click-handler";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -17,14 +18,21 @@ const Header = () => {
       <div className="flexCenter paddings innerWidth h-container">
         <img src="./logo.png" alt="logo" width={100} />
 
-        <OutsideClickHandle onOutsideClick={()=>{setMenuOpened(false)}}>
+        <OutsideClickHandle
+          onOutsideClick={() => {
+            setMenuOpened(false);
+          }}
+        >
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
+            <Link to="residencies" spy={true} smooth={true} duration={500}>Residencies</Link>
+
+            <Link to="ourvalue" spy={true} smooth={true} duration={500}>Our Value</Link>
+
+            <Link to="contactus" spy={true} smooth={true} duration={500}>Contact Us</Link>
+
+            <Link to="getstarted" spy={true} smooth={true} offset={50} duration={500}>Get Started</Link>
             <button className="button">
-              <a href="">Contact</a>
+              <a to="contact" href="mailto:anhoai0310@gmail.com">Contact</a>
             </button>
           </div>
         </OutsideClickHandle>

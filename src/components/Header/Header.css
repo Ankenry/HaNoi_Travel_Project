@@ -42,3 +42,6 @@
         transition: all 300ms ease-in;
     }
 }
+
+.login_form {display: flex;flex-direction: column;padding: 5px;gap: 5px;align-items: center;}
+.btn_login {width: 70%; height: 30px;text-align: center;overflow: hidden;}
